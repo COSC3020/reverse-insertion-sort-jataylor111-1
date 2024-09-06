@@ -36,3 +36,14 @@ constant factors.
 Describe your reasoning and the conclusion you've come to. Your reasoning is
 most important -- you can easily find the answer, but you need to demonstrate
 that you've understood the concept. Add your answer to this markdown file.
+
+-------------------------------------------------------
+
+The best-case complexity derives from the idea that an array is already sorted, so like we talked about in class it isn't doing any operations and is just running down the list in linear time.  The worst-case comes from the idea that the list is in full reverse order and has to swap every single position in the array.  The average case then I believe should reflect the worst case as $\Theta(n^2)$, this is because insertion works by using two nested for loops and again like we talked about nesting these for loops gets us a complexity of $n^2$, one n for each loop, as a result even though it won't always be the worst case it will still have to enter both loops and perform some form of operation giving us an average-case complexity of $\Theta(n^2)$
+
+I certify that I have listed all sources used to complete this exercise, including the use of any Large Language Models. All of the work is my own, except where stated otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is suspected, charges may be filed against me without prior notice
+
+
+
+
+
